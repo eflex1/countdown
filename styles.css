@@ -1,0 +1,93 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 50px;
+  background-color: #bae9fd;
+}
+
+/*h1, h3{
+  line-height: 8px;
+}*/
+/*body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .column {
+      width: 100%;
+  }
+}
+.header {
+  color: #006184;
+  text-align: left
+}
+p {
+  color: #000000;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.countdown-box {
+  display: inline-flexbox;
+  margin: 0 10px;
+  background-color: #679ab8;
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+#daysValue, #hoursValue, #minutesValue, #secondsValue, #endDateTime {
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.unit-label {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+
+#endDateTime {
+  margin-top: 20px;
+  font-size: 1em; /* Adjust the font size as needed */
+  color: #003246;
+  font-weight: bold;
+  text-align: left;
+}
+
+#endDateTime span {
+  color: #003246;
+}
+
+/* Additional styles for the date and time formatting */
+#endDateTime .date,
+#endDateTime .time {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9em; /* Adjust the font size as needed */
+}
+
+       
